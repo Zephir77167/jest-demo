@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getMinutesChoices only path 1`] = `
+Array [
+  "00",
+  "10",
+  "20",
+  "30",
+  "40",
+  "50",
+]
+`;

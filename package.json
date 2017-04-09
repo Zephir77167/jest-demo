@@ -1,0 +1,19 @@
+{
+  "name": "jest-demo",
+  "private": false,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-jest": "^19.0.0",
+    "babel-preset-es2015": "^6.16.0",
+    "jest-cli": "^19.0.0"
+  },
+  "scripts": {
+    "test": "node --harmony_proxies node_modules/jest-cli/bin/jest.js --config ./jest-config.json",
+    "cache:test": "node --harmony_proxies node_modules/jest-cli/bin/jest.js --config ./jest-config.json --no-cache",
+    "watch:test": "node --harmony_proxies node_modules/jest-cli/bin/jest.js --config ./jest-config.json --watch",
+    "upd-snap:test": "node --harmony_proxies node_modules/jest-cli/bin/jest.js --config ./jest-config.json --updateSnapshot",
+    "coverage:test": "node --harmony_proxies node_modules/jest-cli/bin/jest.js --config ./jest-config.json --coverage"
+  }
+}

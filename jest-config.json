@@ -1,0 +1,24 @@
+{
+  "collectCoverageFrom": [
+    "src/*.js"
+  ],
+  "coverageDirectory": "<rootDir>/coverage",
+  "coverageThreshold": {
+    "global": {
+      "branches": 0,
+      "functions": 0,
+      "lines": 0,
+      "statements": 0
+    }
+  },
+  "moduleFileExtensions": [
+    "js"
+  ],
+  "moduleDirectories": [
+    "node_modules"
+  ],
+  "modulePaths": [
+    "<rootDir>/src"
+  ],
+  "testRegex": "\\.test\\.js$"
+}
